@@ -1,0 +1,55 @@
+Dag Chris en de rest van het XYZ team
+
+Wie ben ik?
+
+Ik ben Brecht Nulens, 25 jaar oud en een developer uit Hasselt
+
+Mijn interesse voor development komt voort uit mijn opleiding
+Grafisch Ontwerp aan de PXL waar we met Dreamweaver en jQuery
+simpele layouts maakten voor denkbeeldige bedrijven. Zo raakte ik
+verkocht aan de wereld van webdesign en development en verliet ik
+vroegtijdig de schoolbank.
+
+Via een omweg als netwerkbeheerder ben ik terecht gekomen bij
+BeCode. Een initiatief waarbij ik enorm veel heb opgestoken en even
+geëngageerde studenten heb leren kennen.
+
+Het BeCode team, ik zit in het midden!
+
+Waarom ik ?
+
+Voordat ik begon aan mijn avontuur had ik al wat kennis over
+            netwerken en Linux (Debian & Ubuntu). Zo had ik meer vertrouwen om
+            in de richting van developer te gaan.
+            
+Sinds ik met development begonnen ben, heb ik toch al van redelijk wat zaken kunnen proeven. Zo maakte ik onder andere
+
+mijn portfolio website met Vue.js. 
+
+Daarnaast, een voorbeeld site voor een platenwinkel in Genk
+"George and the bear" 
+met React en Gatsby, één van de static site generators en de JAMstack frameworks.
+
+VueJS
+ReactJS
+Gatsbyjs
+NodeJS
+Express
+
+Na de BeCode opleiding, die ondertussen is afgelopen, hou ik me vooral bezig met het volgen van online cursussen, Udemy is één van m’n go-to platformen als ik iets nieuws wil opsteken zoals:
+
+Mvc
+Templating Engines
+MongoDB
+Version Control 
+
+De Javascript cursussen van Wes Bos zijn ook super leerrijk alsook verschillende YouTube kanalen. 
+
+Andere goede bronnen zijn: 
+w3schools
+stackoverflow
+html5doctor 
+developer.mozilla
+canIuse?
+
+Na een paar pogingen om een geschikte opleiding te vinden ben ik ervan overtuigd dat ik nu op het juiste pad ben. Ik zou graag een professionele carrière starten als frontend developer en mijn huidige vaardigheden verder verfijnen. Mijn doel is om de best mogelijke developer te worden.
