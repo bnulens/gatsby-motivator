@@ -36,16 +36,13 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/profile-image.png`, // This path is relative to the root of the site.
+        icon: `src/images/profile-picture.png`, // This path is relative to the root of the site.
       },
     },
     {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
-        fonts: [
-          `fraunces`,
-          `epilogue`, // you can also specify font weights and styles
-        ],
+        fonts: [`fraunces\:100,300,400,400i,700`, `epilogue`],
         display: "swap",
       },
     },
