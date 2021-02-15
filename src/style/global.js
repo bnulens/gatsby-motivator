@@ -7,11 +7,11 @@ export const GlobalStyle = createGlobalStyle`
         margin: 0;
         padding: 0;
         border: 0;
+        font-family: 'Epilogue', sans-serif;
         box-sizing: border-box;
         scroll-behavior: smooth;
         -webkit-box-sizing: border-box;
         -moz-box-sizing: border-box;
-        font-family: 'Epilogue', sans-serif;
         -webkit-font-smoothin: antialiased;
         -moz-osx-font-smoothing: grayscaled;
     }
@@ -25,10 +25,12 @@ export const GlobalStyle = createGlobalStyle`
         --color-grey: ${(props) => props.theme.colors.grey};
         --color-silver: ${(props) => props.theme.colors.silver};
         --color-lightgrey: ${(props) => props.theme.colors.lightgrey};
-        --color-purple: ${(props) => props.theme.colors.purple};
-        --color-marine: ${(props) => props.theme.colors.marine};
-        --color-blue: ${(props) => props.theme.colors.blue};
-        --color-green: ${(props) => props.theme.colors.green};
+        --color-purple_prime: ${(props) => props.theme.colors.purple_prime};
+        --color-purple_second: ${(props) => props.theme.colors.purple_second};
+        --color-red_prime: ${(props) => props.theme.colors.red_prime};
+        --color-red_second: ${(props) => props.theme.colors.red_second};
+        --color-red_third: ${(props) => props.theme.colors.red_third};
+        --color-safe: ${(props) => props.theme.colors.safe};
         --color-danger: ${(props) => props.theme.colors.danger};
     }
 
