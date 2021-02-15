@@ -1,13 +1,13 @@
 import React from "react"
-// import { Image } from "cloudinary-react"
 
 import SEO from "../components/seo"
+import Letter from "../components/Letter"
 
 const Index = () => {
   return (
     <>
-      <SEO title="Motivator" />
-      <p>XKRJGOR</p>
+      <SEO title="Hello" />
+      <Letter />
     </>
   )
 }
