@@ -10,7 +10,8 @@ const Wrapper = styled.div`
 
 const LanguageBlock = styled.button`
   margin-right: 6px;
-  padding: 4px 5px;
+  padding: 8px;
+  text-align: center;
   border-radius: 50%;
   background: transparent;
   color: var(--color-white);
@@ -18,7 +19,7 @@ const LanguageBlock = styled.button`
   cursor: pointer;
 
   :hover {
-    background-color: var(--color-marine);
+    background-color: var(--color-coal);
   }
 
   &.active {
