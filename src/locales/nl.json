@@ -3,6 +3,7 @@
         "title": "Ik ben Brecht Nulens"
     },
     "body":{
+        "intro": "Hallo ABC en iedereen van XYZ",
         "about": {
             "title":"Wie ben ik ?",
             "subTitle": "Ik ben Brecht Nulens, 25 jaar oud en een developer uit Hasselt",

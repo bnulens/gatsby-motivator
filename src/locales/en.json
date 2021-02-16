@@ -3,6 +3,7 @@
         "title": "I am Brecht Nulens"
     },
     "body":{
+        "intro": "Hello ABC and everybody of XYZ",
         "about": {
             "title": "Who am I ?",
             "subTitle": "My name is Brecht, a 25 year old developer from Belgium",
@@ -14,6 +15,7 @@
             "p1":"Before starting as a developer I already had some experience as a network engineer. I liked coding better as it consists of dealing various challenges involving critical thinking & problem solving. Since starting out I managed to learn quite a lot. Using these new skills I made my portfolio website and this motivation letter with GatsbyJS.",
             "p2": "On the side I like to work out some ideas for local businesses (fictional and existing) when they lack a webpage or service. This way I built a GatsbyJS site for a local record store in Genk.",
             "p3": "Even after finishing the BeCode coding bootcamp I am motivated to code and learn every day. Udemy, Code with Mosh and Fireship.io are my go-to platforms if I want to learn new subjects or if I am stuck on some problem.",
+            "p4": "",
             "outro": "After some detour I feel like I am on the right path to start my career as a frontend developer. My goal is to become the best developer I can be."
         }
     }
