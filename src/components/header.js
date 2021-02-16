@@ -20,7 +20,8 @@ const Header = () => {
   return (
     <StyledHeader siteTitle={data.site.siteMetadata.title}>
       <div className="header__heading-wrapper">
-        <h2>{t("header.title")}</h2>
+        <h1>{t("header.title")}</h1>
+        <h2>{t("header.subTitle")}</h2>
       </div>
       <Navbar />
     </StyledHeader>
