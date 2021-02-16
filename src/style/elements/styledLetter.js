@@ -19,8 +19,7 @@ export const Wrapper = styled.div`
   .motivation__wrapper {
     blockquote {
       display: block;
-      height: 50px;
-      padding: 12px;
+      padding: 12px 16px;
       font-size: 18px;
       font-weight: 200;
       border-left: 3px solid var(--color-red_prime);
