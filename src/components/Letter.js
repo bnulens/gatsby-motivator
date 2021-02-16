@@ -1,4 +1,5 @@
 import React from "react"
+import { useTranslation } from "react-i18next"
 
 import Header from "../components/header"
 import Footer from "../components/footer"
@@ -7,31 +8,28 @@ import SideNote from "./content/SideNote"
 import { StyledLetter, Wrapper } from "../style/elements/styledLetter"
 
 const Letter = () => {
+  const { t } = useTranslation()
   return (
     <StyledLetter>
       <SideNote />
       <Wrapper>
         <Header />
         <section className="motivation__wrapper">
-          <blockquote>Dag HR en de rest van het XYZ team</blockquote>
+          <blockquote>{t("body.intro")}</blockquote>
           <article className="motivation__about">
-            <h2>Wie ben ik ?</h2>
-            <h3>
-              Ik ben Brecht Nulens, 25 jaar oud en een developer uit Hasselt
-            </h3>
-            <p>
-              Mijn interesse voor development komt voort uit mijn opleiding
-              Grafisch Ontwerp aan de PXL waar we met Dreamweaver en jQuery
-              simpele layouts maakten voor denkbeeldige bedrijven. Zo raakte ik
-              verkocht aan de wereld van webdesign en development en verliet ik
-              vroegtijdig de schoolbank.
-            </p>
-            <p>
-              Via een omweg als netwerkbeheerder ben ik terecht gekomen bij
-              BeCode. Een initiatief waarbij ik enorm veel heb opgestoken en
-              even geëngageerde studenten heb leren kennen.
-            </p>
+            <h2>{t("body.about.title")}</h2>
+            <h3>{t("body.about.subTitle")}</h3>
+            <p>{t("body.about.p1")}</p>
+            <p>{t("body.about.p2")}</p>
           </article>
+          <article className="motivation__motivate">
+            <h2>{t("body.motivate.title")}</h2>
+            <p>{t("body.motivate.p1")}</p>
+            <p>{t("body.motivate.p2")}</p>
+            <p>{t("body.motivate.p3")}</p>
+            <p>{t("body.motivate.p4")}</p>
+          </article>
+          <blockquote>{t("body.motivate.outro")}</blockquote>
         </section>
         <Footer />
       </Wrapper>
