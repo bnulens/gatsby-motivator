@@ -1,9 +1,10 @@
 {
     "header":{
-        "title": "I am Brecht Nulens"
+        "title": "Hello ABC",
+        "subTitle": "... and everybody of the XYZ team"
     },
     "body":{
-        "intro": "Hello ABC and everybody of XYZ",
+        "intro": "Please allow me to introduce myself",
         "about": {
             "title": "Who am I ?",
             "subTitle": "My name is Brecht, a 25 year old developer from Belgium",
@@ -16,7 +17,8 @@
             "p2": "On the side I like to work out some ideas for local businesses (fictional and existing) when they lack a webpage or service. This way I built a GatsbyJS site for a local record store in Genk.",
             "p3": "Even after finishing the BeCode coding bootcamp I am motivated to code and learn every day. Udemy, Code with Mosh and Fireship.io are my go-to platforms if I want to learn new subjects or if I am stuck on some problem.",
             "p4": "",
-            "outro": "After some detour I feel like I am on the right path to start my career as a frontend developer. My goal is to become the best developer I can be."
-        }
+            "outro": "After a detour I feel like I am on the right path to start my career as a frontend developer. My goal is to become the best developer I can be."
+        },
+        "sideNote": "Lost in translation?"
     }
 }

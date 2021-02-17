@@ -1,9 +1,10 @@
 {
     "header":{
-        "title": "Ik ben Brecht Nulens"
+        "title": "Hallo ABC",
+        "subTitle": "... en iedereen van het XYZ team"
     },
     "body":{
-        "intro": "Hallo ABC en iedereen van XYZ",
+        "intro": "Graag stel ik me aan u voor",
         "about": {
             "title":"Wie ben ik ?",
             "subTitle": "Ik ben Brecht Nulens, 25 jaar oud en een developer uit Hasselt",
@@ -17,6 +18,7 @@
             "p3": "Na de BeCode opleiding, die ondertussen is afgelopen, hou ik me vooral bezig met het volgen van online cursussen, Udemy is één van mijn go-to platformen als ik iets nieuws wil opsteken zoals:",
             "p4":"De Javascript cursussen van Wes Bos zijn ook super leerrijk alsook verschillende YouTube kanalen.",
             "outro": "Na een paar pogingen om een geschikte opleiding te vinden ben ik ervan overtuigd dat ik nu op het juiste pad ben. Ik zou graag een professionele carrière starten als frontend developer en mijn huidige vaardigheden verder verfijnen. Mijn doel is om de best mogelijke developer te worden."
-        }
+        },
+        "sideNote": "Voor de polyglot"
     }
 }
