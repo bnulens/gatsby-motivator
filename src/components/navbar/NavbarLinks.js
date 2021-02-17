@@ -26,6 +26,7 @@ const SocialLink = styled.a`
 `
 const SocialLinkWrapper = styled(Flex)`
   color: var(--color-white);
+  transition: all ease 0.1s;
 
   .social-link-icon {
     display: block;
@@ -37,10 +38,13 @@ const SocialLinkWrapper = styled(Flex)`
     display: block;
     margin-left: 6px;
     font-size: 12px;
-    transition: all ease 0.2s;
-
-    :hover {
-      color: var(--color-safe);
+  }
+  :hover {
+    color: var(--color-safe);
+    .social-link-icon {
+      path {
+        fill: #b33b47;
+      }
     }
   }
 `
