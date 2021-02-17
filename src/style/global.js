@@ -7,7 +7,7 @@ export const GlobalStyle = createGlobalStyle`
         margin: 0;
         padding: 0;
         border: 0;
-        font-family: 'Epilogue', sans-serif;
+        font-family: 'Epilogue','Fraunces', sans-serif;
         box-sizing: border-box;
         scroll-behavior: smooth;
         -webkit-box-sizing: border-box;
@@ -81,4 +81,27 @@ export const GlobalStyle = createGlobalStyle`
         line-height: 1.8;
     }
 
+    ${"" /* Chrome & Safari scrollbar adjustments */}
+    :-webkit-scrollbar {
+        width: 5px; 
+        height: 7px;
+    }
+
+    :-webkit-scrollbar-thumb {
+        background-color: #1e202a;
+        outline: 1px solid #1e202a;
+        border-radius: 50px;
+    }
+
+    :-webkit-scrollbar-track {
+        box-shadow: inset 0 0 4px rgba(0,0,0,0.2);
+    }
+
+    ${"" /* Firefox scrollbar adjustment */}
+    @-moz-document url-prefix() {
+    .scroller {
+        scrollbar-width: thin;
+        scrollbar-color: #1e202a;
+    }
+}
 `
