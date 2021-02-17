@@ -16,14 +16,14 @@ const BackDrop = styled.div`
 `
 
 const Container = styled.div`
-  margin: 3.5% auto;
+  margin: 7vh auto;
   max-width: 90%;
   color: var(--color-white);
 
   ::before {
     content: "";
     position: absolute;
-    top: 3.5vw;
+    top: 7vh;
     left: -12, 5%;
     height: 86vh;
     width: 100%;
