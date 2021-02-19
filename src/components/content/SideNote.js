@@ -2,7 +2,11 @@ import React from "react"
 import { useTranslation } from "react-i18next"
 
 import LanguageSwitcher from "../LanguageSwitcher"
-import { StyledSideNote } from "../../style/elements/styledSideNote"
+
+import {
+  StyledSideNote,
+  LanguagesIcon,
+} from "../../style/elements/styledSideNote"
 
 const SideNote = () => {
   const { t } = useTranslation()
@@ -20,7 +24,10 @@ const SideNote = () => {
         </li>
       </ul>
       <div className="side-note__languages">
-        <p>{t("body.sideNote")}</p>
+        <div className="side-note__languages-note">
+          <p>{t("body.sideNote")}</p>
+          <LanguagesIcon />
+        </div>
         <LanguageSwitcher />
       </div>
     </StyledSideNote>

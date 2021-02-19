@@ -1,4 +1,13 @@
 import styled from "styled-components"
+import IntIcon from "../../icons/language.svg"
+
+export const LanguagesIcon = styled(IntIcon)`
+  display: block;
+  width: 24px;
+  path {
+    fill: white;
+  }
+`
 
 export const StyledSideNote = styled.aside`
   display: flex;
@@ -33,10 +42,19 @@ export const StyledSideNote = styled.aside`
     }
   }
   .side-note__languages {
-    p {
-      font-family: "Fraunces";
-      font-size: 12px;
-      font-weight: 300;
+    .side-note__languages-note {
+      display: flex;
+
+      ${LanguagesIcon} {
+        top: 12px;
+        margin-left: 12px;
+      }
+
+      p {
+        font-family: "Fraunces";
+        font-size: 12px;
+        font-weight: 300;
+      }
     }
   }
 `
