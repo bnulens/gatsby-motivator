@@ -9,6 +9,15 @@ import { StyledLetter, Wrapper } from "../style/elements/styledLetter"
 
 const Letter = () => {
   const { t } = useTranslation()
+  const techArr = [
+    "reactjs",
+    "gatsbjs",
+    "vuejs",
+    "nodejs",
+    "express",
+    "graphql",
+    "mongodb",
+  ]
   return (
     <StyledLetter>
       <SideNote />
@@ -36,6 +45,22 @@ const Letter = () => {
               <p>{t("body.motivate.p3")}</p>
               <p>{t("body.motivate.p4")}</p>
             </div>
+          </article>
+          <article className="motivation__stack-info">
+            <ul className="motivation__stack">
+              {techArr.map((item) => {
+                let x = item[0].toUpperCase() + item.substring(1)
+                return (
+                  <li className="motivation__stack-item">
+                    <span
+                      aria-label="emoji-fire"
+                      role="img"
+                    >{`\uD83D\uDD25`}</span>
+                    <p>{x}</p>
+                  </li>
+                )
+              })}
+            </ul>
           </article>
           <blockquote>{t("body.motivate.outro")}</blockquote>
         </section>

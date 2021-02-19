@@ -29,7 +29,9 @@ export const Wrapper = styled.div`
     }
     blockquote:nth-of-type(2) {
       background-color: var(--color-purple_prime);
+      text-align: justify;
     }
+    /* About article */
     .motivation__about {
       display: flex;
       margin: 50px 0px;
@@ -63,6 +65,7 @@ export const Wrapper = styled.div`
       @media ${(props) => props.theme.mediaQueries.large} {
       }
     }
+    /* Motivation article */
     .motivation__motivate {
       display: flex;
       .motivation__motivate-heading {
@@ -87,6 +90,25 @@ export const Wrapper = styled.div`
           text-align: justify;
           font-weight: 300;
           margin-bottom: 12px;
+        }
+      }
+    }
+    /* Stack article */
+    .motivation__stack-info {
+      .motivation__stack {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        li {
+          display: flex;
+          align-items: center;
+          span {
+            margin-right: 6px;
+          }
+          p {
+            font-size: 14px;
+            font-weight: 300;
+          }
         }
       }
     }
