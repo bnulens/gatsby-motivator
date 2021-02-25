@@ -33,8 +33,12 @@ const LanguageBlock = styled.button`
 `
 
 const LanguageSwitcher = () => {
-  const setLanguage = localStorage.getItem("i18nextLng")
-  const [active, setActive] = useState(setLanguage)
+  const [key, setKey] = useState("nl")
+  const [active, setActive] = useState(key)
+
+  useEffect(() => {
+    setKey(localStorage.getItem("i18nextLng"))
+  }, [])
 
   const handleLanguageSwitch = (language) => {
     i18next.changeLanguage(language, (err, t) => {
