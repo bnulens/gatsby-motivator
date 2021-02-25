@@ -2,6 +2,8 @@ import React from "react"
 import styled from "styled-components"
 import PropTypes from "prop-types"
 
+import ClientOnly from "../components/ClientOnly"
+
 const BackDrop = styled.div`
   display: block;
   height: 100vh;
@@ -55,11 +57,13 @@ const Container = styled.div`
 
 export default function Layout({ children }) {
   return (
-    <BackDrop>
-      <Container>
-        <main>{children}</main>
-      </Container>
-    </BackDrop>
+    <ClientOnly>
+      <BackDrop>
+        <Container>
+          <main>{children}</main>
+        </Container>
+      </BackDrop>
+    </ClientOnly>
   )
 }
 
