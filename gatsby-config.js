@@ -1,7 +1,8 @@
 require("dotenv").config()
+
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Motivation Page`,
+    title: `Hello`,
     description: `A customised motivation page of why you should hire me.`,
     author: `Brecht Nulens`,
   },
@@ -16,7 +17,14 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
-        path: `${__dirname}/src/images`,
+        path: `${__dirname}/src/assets/images`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `icons`,
+        path: `${__dirname}/src/assets/icons`,
       },
     },
     {
