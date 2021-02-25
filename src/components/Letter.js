@@ -1,4 +1,5 @@
 import React from "react"
+import { useStaticQuery, graphql } from "gatsby"
 import { useTranslation } from "react-i18next"
 
 import Header from "../components/header"
@@ -9,15 +10,30 @@ import { StyledLetter, Wrapper } from "../style/elements/styledLetter"
 
 const Letter = () => {
   const { t } = useTranslation()
-  const techArr = [
-    "reactjs",
-    "gatsbjs",
-    "vuejs",
-    "nodejs",
-    "express",
-    "graphql",
-    "mongodb",
-  ]
+  const data = useStaticQuery(graphql`
+    query iconQuery {
+      allFile(filter: { relativeDirectory: { eq: "dev-icons" } }) {
+        edges {
+          node {
+            base
+            publicURL
+          }
+        }
+      }
+    }
+  `)
+
+  if (!data) {
+    return <span>No icons found</span>
+  }
+
+  const icons = [...data.allFile.edges]
+  const techArr = []
+
+  icons.forEach((icn) => {
+    techArr.push(icn.node)
+  })
+
   return (
     <StyledLetter>
       <SideNote />
@@ -48,15 +64,14 @@ const Letter = () => {
           </article>
           <article className="motivation__stack-info">
             <ul className="motivation__stack">
-              {techArr.map((item) => {
-                let x = item[0].toUpperCase() + item.substring(1)
+              {techArr.map((icon, i) => {
+                let x = icon.base[0].toUpperCase() + icon.base.substring(1)
                 return (
                   <li className="motivation__stack-item">
-                    <span
-                      aria-label="emoji-fire"
-                      role="img"
-                    >{`\uD83D\uDD25`}</span>
-                    <p>{x}</p>
+                    <span aria-label="tag" role="img">
+                      {x.replace(".svg", "")}
+                    </span>
+                    <img src={icon.publicURL} alt={`skill-icon${i}`} key={i} />
                   </li>
                 )
               })}
