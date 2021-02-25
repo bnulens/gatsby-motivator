@@ -19,7 +19,7 @@ export const StyledLetter = styled.section`
 export const Wrapper = styled.div`
   width: 100%;
   margin: 0 auto;
-  padding: 12px 24px;
+  padding: 6px 12px;
   overflow: scroll;
 
   .motivation__wrapper {
@@ -27,12 +27,13 @@ export const Wrapper = styled.div`
       display: block;
       margin-top: 24px;
       padding: 12px 16px;
-      font-size: 24px;
+      font-size: 20px;
       font-weight: 200;
       border-left: 3px solid var(--color-red_prime);
       background-color: var(--color-purple_second);
     }
     blockquote:nth-of-type(2) {
+      font-size: 16px;
       background-color: var(--color-purple_prime);
       text-align: justify;
     }
@@ -75,6 +76,8 @@ export const Wrapper = styled.div`
 
         .motivation__about-heading {
           width: 35%;
+          padding: 6px;
+
           h2 {
             font-family: "Fraunces";
             font-size: 42px;
@@ -144,22 +147,31 @@ export const Wrapper = styled.div`
 
       .motivation__stack {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr;
-        gap: 24px 6px;
+        gap: 25% 25%;
         grid-template-areas:
-          ". . . ."
-          ". . . ."
-          ". . . .";
+          ". . . "
+          ". . . ";
+        max-width: 90%;
+        margin: 0 auto;
 
         li {
+          position: relative;
           display: flex;
-          flex-direction: row;
+          align-items: center;
+          justify-content: center;
           width: auto;
-        }
 
-        span {
-          margin-right: 6px;
+          span {
+            position: absolute;
+            top: 0;
+          }
+
+          img {
+            display: block;
+            width: 60px;
+          }
         }
 
         @media screen and (min-width: 768px) {
