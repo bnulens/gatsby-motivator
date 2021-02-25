@@ -1,5 +1,5 @@
 import styled from "styled-components"
-import IntIcon from "../../icons/language.svg"
+import IntIcon from "../../assets/icons/language.svg"
 
 export const LanguagesIcon = styled(IntIcon)`
   display: block;
@@ -16,6 +16,7 @@ export const StyledSideNote = styled.aside`
 
   .side-note__side-scroll {
     display: none;
+
     @media screen and (min-width: 768px) {
       display: block;
 
