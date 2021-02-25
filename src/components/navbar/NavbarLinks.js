@@ -2,9 +2,9 @@ import React from "react"
 import styled from "styled-components"
 import Flex from "../../style/Flex"
 
-import Globe from "../../icons/globe.svg"
-import GitHub from "../../icons/github.svg"
-import LinkedIn from "../../icons/linkedin.svg"
+import Globe from "../../assets/icons/globe.svg"
+import GitHub from "../../assets/icons/github.svg"
+import LinkedIn from "../../assets/icons/linkedin.svg"
 
 const SocialContainer = styled(Flex)`
   span {
