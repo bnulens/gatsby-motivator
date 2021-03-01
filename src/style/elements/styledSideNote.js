@@ -29,6 +29,7 @@ export const StyledSideNote = styled.aside`
         .item-bullet {
           display: block;
           width: 10px;
+          min-width: 10px;
           height: 10px;
           margin-right: 10px;
           border: 1px solid var(--color-silver);
