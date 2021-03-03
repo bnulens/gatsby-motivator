@@ -4,7 +4,6 @@ import { useTranslation } from "react-i18next"
 
 import Header from "../components/header"
 import Footer from "../components/footer"
-import SideNote from "./content/SideNote"
 
 import { StyledLetter, Wrapper } from "../style/elements/styledLetter"
 
@@ -36,7 +35,6 @@ const Letter = () => {
 
   return (
     <StyledLetter>
-      <SideNote />
       <Wrapper>
         <Header />
         <section className="motivation__wrapper">
@@ -67,7 +65,7 @@ const Letter = () => {
               {techArr.map((icon, i) => {
                 let x = icon.base[0].toUpperCase() + icon.base.substring(1)
                 return (
-                  <li className="motivation__stack-item">
+                  <li className="motivation__stack-item" key={i + 5}>
                     <span aria-label="tag" role="img">
                       {x.replace(".svg", "")}
                     </span>
