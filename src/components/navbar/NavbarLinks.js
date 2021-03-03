@@ -2,7 +2,8 @@ import React from "react"
 import styled from "styled-components"
 import Flex from "../../style/Flex"
 
-import Globe from "../../assets/icons/globe.svg"
+import Email from "../../assets/icons/email.svg"
+import Phone from "../../assets/icons/phone.svg"
 import GitHub from "../../assets/icons/github.svg"
 import LinkedIn from "../../assets/icons/linkedin.svg"
 
@@ -53,13 +54,25 @@ const NavbarLinks = () => {
     <SocialContainer alignItems="center">
       <SocialLink
         className="social-link"
-        href="https://brechtnulens.be/"
+        href="mailto:brechtnulens@gmail.com"
         target="__blank"
         rel="noopener noreferrer"
       >
         <SocialLinkWrapper justifyContent="flex-start" alignItems="center">
-          <Globe className="social-link-icon" />
-          <p>Website</p>
+          <Email className="social-link-icon" />
+          <p>Email</p>
+        </SocialLinkWrapper>
+      </SocialLink>
+      <span>|</span>
+      <SocialLink
+        className="social-link"
+        href="tel:+32494749731"
+        target="__blank"
+        rel="noopener noreferrer"
+      >
+        <SocialLinkWrapper justifyContent="flex-start" alignItems="center">
+          <Phone className="social-link-icon" />
+          <p>Tel.</p>
         </SocialLinkWrapper>
       </SocialLink>
       <span>|</span>

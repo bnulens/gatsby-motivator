@@ -1,33 +1,29 @@
 import React from "react"
-import {
-  StyledFooting,
-  PhoneIcon,
-  EmailIcon,
-} from "../style/elements/styledFooter"
+import { useTranslation } from "react-i18next"
+
+import { StyledFooting } from "../style/elements/styledFooter"
+
+import Navbar from "../components/navbar/Navbar"
 
 const Footer = () => {
   const thisYear = new Date().getFullYear()
+  const flame = `\uD83D\uDD25`
 
+  const { t } = useTranslation()
   return (
     <StyledFooting>
-      <div className="footer__inner-wrapper">
-        <h3>Let's get in touch !</h3>
-        <a href="tel:+32494749731" className="footer__contact-link">
-          <PhoneIcon />
-          <p>... by phone</p>
-        </a>
-        <a
-          href="mailto:brechtnulens@gmail.com"
-          className="footer__contact-link"
-        >
-          <EmailIcon />
-          <p>... or by email</p>
-        </a>
-        <p>
-          {`\uD83D\uDD25`}
-          {thisYear}
-        </p>
-      </div>
+      <article className="footer__content">
+        <div className="footer__heading-wrapper">
+          <h2>{t("footer.title")}</h2>
+        </div>
+        <div className="footer__bottom-wrapper">
+          <Navbar />
+          <div className="footer__bottom-tag">
+            <span>{flame}</span>
+            <span>{thisYear}</span>
+          </div>
+        </div>
+      </article>
     </StyledFooting>
   )
 }

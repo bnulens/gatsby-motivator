@@ -9,50 +9,50 @@ export const EmailIcon = styled(Email)``
 export const StyledFooting = styled.footer`
   height: 240px;
   width: 100%;
-  margin-top: 48px;
+  margin: 32px auto;
 
-  .footer__inner-wrapper {
+  .footer__content {
     height: 100%;
     width: 100%;
-    padding: 6px 12px;
-    /* background-color: var(--color-coal); */
     margin: 0 auto;
 
-    h3 {
-      font-family: "Fraunces";
-      font-size: 42px;
-      font-weight: 300;
+    .footer__heading-wrapper {
+      h2 {
+        font-family: "Fraunces";
+        font-size: 6vw;
+        font-weight: 300;
+      }
     }
-    .footer__contact-link {
+
+    .footer__bottom-wrapper {
       display: flex;
+      flex-direction: column;
+      justify-content: center;
       align-items: center;
-      margin: 20px auto;
-      color: var(--color-lightgrey);
+      width: 100%;
 
-      p {
-        margin-left: 8px;
-        font-weight: 100;
-      }
+      .footer__bottom-tag {
+        margin-top: 18px;
 
-      svg {
-        display: block;
-        width: 30px;
-        height: auto;
-        transition: all ease 0.2s;
-
-        path {
-          fill: var(--color-silver);
+        span:nth-child(2) {
+          margin-left: 6px;
         }
       }
+    }
+    @media screen and (min-width: 768px) {
+      max-width: 90%;
 
-      :hover {
-        p {
-          color: var(--color-safe);
+      .footer__heading-wrapper {
+        h2 {
+          font-size: 32px;
         }
-        svg {
-          path {
-            fill: var(--color-safe);
-          }
+      }
+      .footer__bottom-wrapper {
+        flex-direction: row;
+        justify-content: space-between;
+
+        .footer__bottom-tag {
+          margin-top: 0;
         }
       }
     }
