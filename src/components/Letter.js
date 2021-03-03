@@ -39,6 +39,7 @@ const Letter = () => {
         <Header />
         <section className="motivation__wrapper">
           <blockquote>{t("body.intro")}</blockquote>
+          {/* About article */}
           <article className="motivation__about">
             <div className="motivation__about-heading">
               <h2>{t("body.about.title")}</h2>
@@ -49,6 +50,7 @@ const Letter = () => {
               <p>{t("body.about.p2")}</p>
             </div>
           </article>
+          {/* Motivation article */}
           <article className="motivation__motivate">
             <div className="motivation__motivate-heading">
               <h2>{t("body.motivate.title")}</h2>
@@ -60,6 +62,7 @@ const Letter = () => {
               <p>{t("body.motivate.p4")}</p>
             </div>
           </article>
+          {/* Stack article */}
           <article className="motivation__stack-info">
             <ul className="motivation__stack">
               {techArr.map((icon, i) => {
@@ -74,6 +77,13 @@ const Letter = () => {
                 )
               })}
             </ul>
+          </article>
+          {/* Company article */}
+          <article className="motivation__company">
+            <div className="motivation__company-heading">
+              <h2>X</h2>
+              <h3>Y</h3>
+            </div>
           </article>
           <blockquote>{t("body.motivate.outro")}</blockquote>
         </section>
