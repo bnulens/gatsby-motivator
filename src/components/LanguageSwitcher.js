@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react"
 import styled from "styled-components"
 import i18next from "i18next"
+import i18n from "../i18n"
 
 const Wrapper = styled.div`
   display: inline-block;
@@ -33,7 +34,7 @@ const LanguageBlock = styled.button`
 `
 
 const LanguageSwitcher = () => {
-  const [key, setKey] = useState("nl")
+  const [key, setKey] = useState(i18n.language)
   const [active, setActive] = useState(key)
 
   useEffect(() => {
