@@ -5,6 +5,7 @@
     },
     "body":{
         "intro": "Graag stel ik me aan u voor",
+        "sideNote": "Voor de polyglot",
         "about": {
             "title":"Wie ben ik ?",
             "subTitle": "Ik ben Brecht Nulens, 25 jaar oud en een developer uit Hasselt",
@@ -19,6 +20,14 @@
             "p4":"De Javascript cursussen van Wes Bos zijn ook super leerrijk alsook verschillende YouTube kanalen.",
             "outro": "Na een paar pogingen om een geschikte opleiding te vinden ben ik ervan overtuigd dat ik nu op het juiste pad ben. Ik zou graag een professionele carrière starten als frontend developer en mijn huidige vaardigheden verder verfijnen. Mijn doel is om de best mogelijke developer te worden."
         },
-        "sideNote": "Voor de polyglot"
+        "roadmap": {
+            "quote": "Een senior developer raadde mij aan om deze kaart te bekijken, zo kon ik uitzoeken welke technologiën cruciaal waren voor de rol van front-end developer. —  "
+        },
+        "company": {
+            "title": "Waarom XYZ ?",
+            "subTitle": "Positie bij XYZ",
+            "p1": ""
+        },
+        "siteLink": "Kom meer te weten ..."
     }
 }
