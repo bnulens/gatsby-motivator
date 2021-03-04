@@ -158,6 +158,9 @@ export const Wrapper = styled.div`
               33% 75%,
               0% 75%
             );
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
             opacity: 0;
           }
 
@@ -177,8 +180,8 @@ export const Wrapper = styled.div`
             }
             :hover {
               span {
-                opacity: 1;
                 transform: translate(-50%, -180%);
+                opacity: 1;
               }
             }
           }
