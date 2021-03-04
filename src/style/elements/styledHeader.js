@@ -14,6 +14,7 @@ export const StyledHeader = styled.header`
   max-width: 90%;
   margin: 0 auto;
   background-color: var(--color-purple_prime);
+  padding: 6px 2px;
 
   .header__heading-wrapper {
     display: flex;
@@ -57,7 +58,7 @@ export const StyledHeader = styled.header`
     justify-content: space-between;
     align-items: center;
     top: 0;
-    height: 200px;
+    /* height: 160px; */
     z-index: 50;
 
     .header__heading-wrapper {
