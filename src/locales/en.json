@@ -1,11 +1,11 @@
 {
     "header":{
         "title": "Hello ABC",
-        "subTitle": "... and everybody of the XYZ team"
+        "subTitle": "... and everybody of the XYZ team",
+        "sideNote": "Lost in translation ?"
     },
     "body":{
         "intro": "Please allow me to introduce myself",
-        "sideNote": "Lost in translation ?",
         "about": {
             "title": "Who am I ?",
             "subTitle": "My name is Brecht, a 25 year old developer from Belgium",

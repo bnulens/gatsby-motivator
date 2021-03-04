@@ -27,7 +27,7 @@ const Header = () => {
       </div>
       <div className="header__languages">
         <div className="header__languages-note">
-          <p>{t("body.sideNote")}</p>
+          <p>{t("header.sideNote")}</p>
           <LanguagesIcon />
         </div>
         <LanguageSwitcher />

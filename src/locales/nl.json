@@ -1,11 +1,11 @@
 {
     "header":{
         "title": "Hallo ABC",
-        "subTitle": "... en iedereen van het XYZ team"
+        "subTitle": "... en iedereen van het XYZ team",
+        "sideNote": "Voor de polyglot"
     },
     "body":{
         "intro": "Graag stel ik me aan u voor",
-        "sideNote": "Voor de polyglot",
         "about": {
             "title":"Wie ben ik ?",
             "subTitle": "Ik ben Brecht Nulens, 25 jaar oud en een developer uit Hasselt",
