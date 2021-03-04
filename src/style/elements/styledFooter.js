@@ -7,7 +7,6 @@ export const PhoneIcon = styled(Phone)``
 export const EmailIcon = styled(Email)``
 
 export const StyledFooting = styled.footer`
-  height: 240px;
   width: 100%;
   margin: 32px auto;
 
