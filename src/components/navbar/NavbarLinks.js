@@ -7,10 +7,22 @@ import Phone from "../../assets/icons/phone.svg"
 import GitHub from "../../assets/icons/github.svg"
 import LinkedIn from "../../assets/icons/linkedin.svg"
 
-const SocialContainer = styled(Flex)`
+const SocialContainer = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 90%;
+
   span {
-    color: var(--color-silver);
-    z-index: 2;
+    display: none;
+  }
+
+  @media screen and (min-width: 768px) {
+    span {
+      display: block;
+      color: var(--color-silver);
+      z-index: 2;
+    }
   }
 `
 const SocialLink = styled.a`
@@ -51,7 +63,7 @@ const SocialLinkWrapper = styled(Flex)`
 `
 const NavbarLinks = () => {
   return (
-    <SocialContainer alignItems="center">
+    <SocialContainer>
       <SocialLink
         className="social-link"
         href="mailto:brechtnulens@gmail.com"
@@ -72,7 +84,7 @@ const NavbarLinks = () => {
       >
         <SocialLinkWrapper justifyContent="flex-start" alignItems="center">
           <Phone className="social-link-icon" />
-          <p>Tel.</p>
+          <p>0494/74.97.31</p>
         </SocialLinkWrapper>
       </SocialLink>
       <span>|</span>
