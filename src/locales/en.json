@@ -1,32 +1,33 @@
 {
     "header":{
-        "title": "Hello ABC",
-        "subTitle": "... and everybody of the XYZ team",
+        "title": "Hello Christine",
+        "subTitle": "... and everybody of the Ambassify team",
         "sideNote": "Lost in translation ?"
     },
     "body":{
         "intro": "Please allow me to introduce myself",
         "about": {
             "title": "Who am I ?",
-            "subTitle": "My name is Brecht, a 25 year old developer from Belgium",
+            "subTitle": "My name is Brecht, a 25 year young Javascript developer from Hasselt",
             "p1": "Studying graphic design in college made me grow curious about web development. One of our subjects involved making layouts for fictional companies with Adobe DreamWeaver and jQuery 2.2. I noticed webdesign and webservices had (and have) lots of potential so I made a switch to IT.",
             "p2": "As a step-up into the world of IT I started with an associate degree in network engineering with which I could start at the coding bootcamp BeCode. Here I learned the very basics of web development and met a lot of inspiring people."
         },
         "motivate": {
+            "example": "see here.",
             "title": "Why me ?",
-            "p1":"Before starting as a developer I already had some experience as a network engineer. I liked coding better as it consists of dealing various challenges involving critical thinking & problem solving. Since starting out I managed to learn quite a lot. Using these new skills I made my portfolio website and this motivation letter with GatsbyJS.",
-            "p2": "On the side I like to work out some ideas for local businesses (fictional and existing) when they lack a webpage or service. This way I built a GatsbyJS site for a local record store in Genk.",
+            "p1":"Before starting as a developer I already had some experience as a network engineer. I liked coding better as it consists of dealing with various challenges involving critical thinking & problem solving. Since starting out I managed to learn quite a lot. Using these new skills I made my portfolio website and this motivation letter with GatsbyJS.",
+            "p2": "On the side I like to work out some ideas for local businesses (fictional and existing) when they lack a webpage or service. This way I built a GatsbyJS site for a local record store in Genk, ",
             "p3": "Even after finishing the BeCode coding bootcamp I am motivated to code and learn every day. Udemy, Code with Mosh and Fireship.io are my go-to platforms if I want to learn new subjects or if I am stuck on some problem.",
             "p4": "",
             "outro": "After a detour I feel like I am on the right path to start my career as a frontend developer. My goal is to become the best developer I can be."
         },
         "roadmap": {
-            "quote": "A senior developer advised me to look at this chart in order to figure out the key tools and technologies of a frontend developer. — "
+            "quote": "A senior developer advised me to look at this chart in order to figure out the key tools and technologies of a frontend developer. This map has been a very valuable guide in my journey to become a better frontend developer every day — "
         },
         "company": {
-            "title": "Why XYZ ?",
-            "subTitle": "Position at XYZ",
-            "p1": " "
+            "title": "Why Ambassify ?",
+            "subTitle": "",
+            "p1": "Helloooo "
         },
         "siteLink": "Discover more ..."
 
