@@ -5,7 +5,16 @@ import { useTranslation } from "react-i18next"
 import Header from "../components/header"
 import Footer from "../components/footer"
 
-import { StyledLetter, Wrapper } from "../style/elements/styledLetter"
+import RoadMap from "../assets/images/roadmap.png"
+
+import {
+  StyledLetter,
+  Wrapper,
+  MotivationArticle,
+  ArticleHeading,
+  ArticleContent,
+  SiteLink,
+} from "../style/elements/styledLetter"
 
 const Letter = () => {
   const { t } = useTranslation()
@@ -40,28 +49,28 @@ const Letter = () => {
         <section className="motivation__wrapper">
           <blockquote>{t("body.intro")}</blockquote>
           {/* About article */}
-          <article className="motivation__about">
-            <div className="motivation__about-heading">
+          <MotivationArticle>
+            <ArticleHeading>
               <h2>{t("body.about.title")}</h2>
               <h3>{t("body.about.subTitle")}</h3>
-            </div>
-            <div className="motivation__about-content">
+            </ArticleHeading>
+            <ArticleContent>
               <p>{t("body.about.p1")}</p>
               <p>{t("body.about.p2")}</p>
-            </div>
-          </article>
+            </ArticleContent>
+          </MotivationArticle>
           {/* Motivation article */}
-          <article className="motivation__motivate">
-            <div className="motivation__motivate-heading">
+          <MotivationArticle>
+            <ArticleHeading>
               <h2>{t("body.motivate.title")}</h2>
-            </div>
-            <div className="motivation__motivate-content">
+            </ArticleHeading>
+            <ArticleContent>
               <p>{t("body.motivate.p1")}</p>
               <p>{t("body.motivate.p2")}</p>
               <p>{t("body.motivate.p3")}</p>
               <p>{t("body.motivate.p4")}</p>
-            </div>
-          </article>
+            </ArticleContent>
+          </MotivationArticle>
           {/* Stack article */}
           <article className="motivation__stack-info">
             <ul className="motivation__stack">
@@ -78,14 +87,50 @@ const Letter = () => {
               })}
             </ul>
           </article>
-          {/* Company article */}
-          <article className="motivation__company">
-            <div className="motivation__company-heading">
-              <h2>X</h2>
-              <h3>Y</h3>
+          {/* Roadmap article */}
+          <article className="motivation__roadmap">
+            <div className="motivation__roadmap-inner-wrapper">
+              <blockquote>
+                {t("body.roadmap.quote")}
+                <a
+                  href="https://roadmap.sh"
+                  target="__blank"
+                  noopener
+                  norefferer
+                >
+                  roadmap.sh
+                </a>
+              </blockquote>
+              <a
+                className="roadmap-chart-link"
+                href="https://roadmap.sh"
+                target="__blank"
+                noopener
+                norefferer
+              >
+                <img src={RoadMap} alt="front-end-roadmap" />
+              </a>
             </div>
           </article>
+          {/* Company article */}
+          <MotivationArticle>
+            <ArticleHeading>
+              <h2>{t("body.company.title")}</h2>
+              <h3>{t("body.company.subTitle")}</h3>
+            </ArticleHeading>
+            <ArticleContent>
+              <p>{t("body.company.p1")}</p>
+            </ArticleContent>
+          </MotivationArticle>
           <blockquote>{t("body.motivate.outro")}</blockquote>
+          <SiteLink
+            href="https://brechtnulens.be"
+            noopener
+            noreffere
+            target="__blank"
+          >
+            {t("body.siteLink")}
+          </SiteLink>
         </section>
         <Footer />
       </Wrapper>
