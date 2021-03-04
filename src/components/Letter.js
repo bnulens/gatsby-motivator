@@ -65,7 +65,17 @@ const Letter = () => {
               <h2>{t("body.motivate.title")}</h2>
             </ArticleHeading>
             <ArticleContent>
-              <p>{t("body.motivate.p1")}</p>
+              <p>
+                {t("body.motivate.p1")}{" "}
+                <a
+                  href="https://epic-galileo-8a7f26.netlify.app/"
+                  target="_blank"
+                  rel="noopener
+                  noreferrer"
+                >
+                  {t("body.motivate.example")}
+                </a>
+              </p>
               <p>{t("body.motivate.p2")}</p>
               <p>{t("body.motivate.p3")}</p>
               <p>{t("body.motivate.p4")}</p>
@@ -94,9 +104,9 @@ const Letter = () => {
                 {t("body.roadmap.quote")}
                 <a
                   href="https://roadmap.sh"
-                  target="__blank"
-                  noopener
-                  norefferer
+                  target="_blank"
+                  rel="noopener
+                  noreferrer"
                 >
                   roadmap.sh
                 </a>
@@ -104,9 +114,9 @@ const Letter = () => {
               <a
                 className="roadmap-chart-link"
                 href="https://roadmap.sh"
-                target="__blank"
-                noopener
-                norefferer
+                target="_blank"
+                rel="noopener
+                noreferrer"
               >
                 <img src={RoadMap} alt="front-end-roadmap" />
               </a>
@@ -125,9 +135,9 @@ const Letter = () => {
           <blockquote>{t("body.motivate.outro")}</blockquote>
           <SiteLink
             href="https://brechtnulens.be"
-            noopener
-            noreffere
-            target="__blank"
+            rel="noopener
+            noreferrer"
+            target="_blank"
           >
             {t("body.siteLink")}
           </SiteLink>

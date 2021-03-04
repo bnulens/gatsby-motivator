@@ -57,6 +57,11 @@ export const ArticleContent = styled.div`
     font-size: 12px;
     font-weight: 300;
     margin-bottom: 12px;
+
+    a {
+      font-weight: 700;
+      color: var(--color-red_second);
+    }
   }
 
   @media screen and (min-width: 768px) {
@@ -198,13 +203,14 @@ export const Wrapper = styled.div`
         justify-content: center;
 
         blockquote {
-          font-size: 12px;
+          font-size: 14px;
           font-weight: 100;
           text-align: justify;
           margin-bottom: 24px;
           background: none;
 
           a {
+            font-weight: 700;
             color: var(--color-red_second);
           }
         }
@@ -219,7 +225,6 @@ export const Wrapper = styled.div`
           flex-direction: row;
 
           blockquote {
-            font-size: 14px;
             margin-right: 18px;
             margin-bottom: 0px;
 
