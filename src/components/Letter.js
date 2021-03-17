@@ -120,6 +120,7 @@ const Letter = () => {
             </ArticleHeading>
             <ArticleContent>
               <p>{t("body.company.p1")}</p>
+              <p>{t("body.company.p2")}</p>
             </ArticleContent>
           </MotivationArticle>
           <blockquote>{t("body.motivate.outro")}</blockquote>
