@@ -1,7 +1,7 @@
 {
     "header":{
-        "title": "Hello ABC",
-        "subTitle": "... and everybody of the XYZ team",
+        "title": "Hello Markedeer",
+        "subTitle": "... and everybody of the Pubmarket! team",
         "sideNote": "Lost in translation ?"
     },
     "body":{
@@ -24,9 +24,10 @@
             "quote": "A senior developer advised me to look at this chart in order to figure out the key tools and technologies of a frontend developer. — "
         },
         "company": {
-            "title": "Why XYZ ?",
-            "subTitle": "Position at XYZ",
-            "p1": " "
+            "title": "Why Markedeer ?",
+            "subTitle": "Oh deer!",
+            "p1": "I firmly believe in digitalisation and the enormous potential it possesses, this is why Markedeer caught my eye. A dynamic organization which focusses on delivering quality digital products and concurrently provides an environment for it's developers to learn and share skills.",
+            "p2": "The position as frontend developer at Markedeer has everything I have been looking for. "
         },
         "siteLink": "Discover more ..."
 
