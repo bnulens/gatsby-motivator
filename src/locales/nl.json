@@ -1,7 +1,7 @@
 {
     "header":{
-        "title": "Hallo Markedeer",
-        "subTitle": "... en iedereen van het Pubmarket! team",
+        "title": "Hallo ABC",
+        "subTitle": "... en iedereen van het XYZ team",
         "sideNote": "Voor de polyglot"
     },
     "body":{
@@ -24,10 +24,10 @@
             "quote": "Een senior developer raadde mij aan om deze kaart te bekijken, zo kon ik uitzoeken welke technologiën cruciaal waren voor de rol van front-end developer. —  "
         },
         "company": {
-            "title": "Waarom Markedeer ?",
-            "subTitle": "Opgepast: loslopend wild",
-            "p1": "Ik geloof heilig in digitalisering en het enorme potentieel dat het bezit, daarom is in mijn ogen Markedeer zo interessant. Een dynamische omgeving die zich focust op het leveren van kwalitatieve digitale diensten en producten en gelijkertijd inzet op zijn developer om bij te leren.",
-            "p2": "De positie als front-end developer bij Markedeer heeft alles waar ik naar op zoek ben en waar ik met zekerheid de vereisten kan aanvinken."
+            "title": "Waarom XYZ ?",
+            "subTitle": "",
+            "p1": " ",
+            "p2": ""
         },
         "siteLink": "Kom meer te weten ..."
     }
