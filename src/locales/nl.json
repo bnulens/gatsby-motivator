@@ -1,7 +1,7 @@
 {
     "header":{
-        "title": "Hallo ABC",
-        "subTitle": "... en iedereen van het XYZ team",
+        "title": "Hallo Dimitri",
+        "subTitle": "... en iedereen van het Kunstmaan team",
         "sideNote": "Voor de polyglot"
     },
     "body":{
@@ -24,7 +24,7 @@
             "quote": "Een senior developer raadde mij aan om deze kaart te bekijken, zo kon ik uitzoeken welke technologiën cruciaal waren voor de rol van front-end developer. —  "
         },
         "company": {
-            "title": "Waarom XYZ ?",
+            "title": "Waarom Kunstmaan ?",
             "subTitle": "",
             "p1": " ",
             "p2": ""
