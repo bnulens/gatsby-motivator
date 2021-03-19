@@ -95,8 +95,8 @@ const Letter = () => {
                 <a
                   href="https://roadmap.sh"
                   target="__blank"
-                  noopener
-                  norefferer
+                  rel="noopener
+                  noreferrer"
                 >
                   roadmap.sh
                 </a>
@@ -105,8 +105,8 @@ const Letter = () => {
                 className="roadmap-chart-link"
                 href="https://roadmap.sh"
                 target="__blank"
-                noopener
-                norefferer
+                rel="noopener
+                noreferrer"
               >
                 <img src={RoadMap} alt="front-end-roadmap" />
               </a>
@@ -126,8 +126,8 @@ const Letter = () => {
           <blockquote>{t("body.motivate.outro")}</blockquote>
           <SiteLink
             href="https://brechtnulens.be"
-            noopener
-            noreffere
+            rel="noopener
+            noreferrer"
             target="__blank"
           >
             {t("body.siteLink")}
