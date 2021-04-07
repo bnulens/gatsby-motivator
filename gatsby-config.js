@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Hello`,
-    description: `A customised motivation page of why you should hire me.`,
+    title: `Hello Netropolix`,
+    description: `A customised motivation page of why you should consider hiring me.`,
     author: `Brecht Nulens`,
   },
   plugins: [

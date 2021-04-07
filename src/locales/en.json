@@ -1,7 +1,7 @@
 {
     "header":{
-        "title": "Hello ABC",
-        "subTitle": "... and everybody of the XYZ team",
+        "title": "Hello Aïda",
+        "subTitle": "... and everybody of the Netropolix team",
         "sideNote": "Lost in translation ?"
     },
     "body":{
@@ -10,7 +10,7 @@
             "title": "Who am I ?",
             "subTitle": "My name is Brecht, a 25 year old developer from Belgium",
             "p1": "Studying graphic design in college made me grow curious about web development. One of our subjects involved making layouts for fictional companies with Adobe DreamWeaver and jQuery 2.2. I noticed webdesign and webservices had (and have) lots of potential so I made a switch to IT.",
-            "p2": "As a step-up into the world of IT I started with an associate degree in network engineering with which I could start at the coding bootcamp BeCode. Here I learned the very basics of web development and met a lot of inspiring people."
+            "p2": "As a step-up into the world of IT I started with an associate degree in network engineering with which I could start at the coding bootcamp BeCode. Here I learned the very basics of web development and met a lot of ambitious people."
         },
         "motivate": {
             "title": "Why me ?",
@@ -24,10 +24,10 @@
             "quote": "A senior developer advised me to look at this chart in order to figure out the key tools and technologies of a frontend developer. — "
         },
         "company": {
-            "title": "Why XYZ ?",
-            "subTitle": "Oh deer!",
-            "p1": "",
-            "p2": ""
+            "title": "Why Netropolix ?",
+            "subTitle": "Golden opportunity !",
+            "p1": "The position of junior developer enables a developer of my level to get a first glimpse of the professional world of IT.",
+            "p2": "Highly motivated and an immense hunger for growth, I am convinced I can be a great asset to your organization. I am eagerly looking forward to get in touch."
         },
         "siteLink": "Discover more ..."
 
