@@ -1,7 +1,7 @@
 {
     "header":{
-        "title": "Hello ABC",
-        "subTitle": "... and everybody of the XYZ team",
+        "title": "Hello Yungo",
+        "subTitle": "... and everybody of the Yungo team",
         "sideNote": "Lost in translation ?"
     },
     "body":{
@@ -24,8 +24,8 @@
             "quote": "A senior developer advised me to look at this chart in order to figure out the key tools and technologies of a frontend developer. — "
         },
         "company": {
-            "title": "Why XYZ ?",
-            "subTitle": "Oh deer!",
+            "title": "Why Yungo ?",
+            "subTitle": "!",
             "p1": "",
             "p2": ""
         },

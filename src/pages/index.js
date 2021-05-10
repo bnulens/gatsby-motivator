@@ -7,7 +7,7 @@ import Letter from "../components/Letter"
 const Index = () => {
   return (
     <>
-      <SEO title="Hello" />
+      <SEO title="Hello Yungo" />
       <Letter />
     </>
   )
