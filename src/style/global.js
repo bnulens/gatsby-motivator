@@ -14,6 +14,20 @@ export const GlobalStyle = createGlobalStyle`
         -moz-box-sizing: border-box;
         -webkit-font-smoothin: antialiased;
         -moz-osx-font-smoothing: grayscaled;
+        scrollbar-width: thin;
+        scrollbar-color: var(--color-red_second) transparent;
+    }
+    /* Works on Chrome, Edge, and Safari */
+    *::-webkit-scrollbar {
+        width: 8px;
+    }
+    *::-webkit-scrollbar-track {
+        background: transparent;
+    }
+    *::-webkit-scrollbar-thumb {
+        background-color: var(--color-red_second);
+        border-radius: 20px;
+        border: 2px solid transparent;
     }
 
     html {
